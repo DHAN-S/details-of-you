@@ -1,0 +1,95 @@
+body{
+    background-color: powderblue;
+}
+
+
+#backside {
+    background: black;
+    height:100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+}
+
+#popup {
+    background-color: red;
+    color: white;
+    width: 50%;
+    border-color: grey;
+    border-radius: 10px;
+    border-width: 5px;
+    border-style: solid;
+    position: absolute;
+    left: 30%;
+    top:20%;
+    display: none;
+}
+#world
+{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.total-body {
+display:inline;
+    background-color: pink;
+    border-width:4px;
+    border-color:black;
+    border-style: solid;
+    margin:10px;
+}
+
+#title {
+    background: purple;
+    text-align: center;
+}
+#close,
+#popup-add,#reset {
+    margin: 10px;
+    padding: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: green;
+}
+#close
+{
+    background-color: orange;
+}
+#popup-add
+{
+    background-color: blue;
+}
+
+#add {
+    position: absolute;
+    left: 90%;
+    top: 80%;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: orange;
+}
+
+#buttons {
+    display: flex;
+    justify-content: right;
+}
+input{
+    padding:10px;
+    margin:10px;
+}
+label{
+    margin-left: 10px;
+}
+#delete
+{
+    margin: 10px;
+    padding: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:red;
+    margin-left:50%;
+
+}
+

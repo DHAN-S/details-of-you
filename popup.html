@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="C:\Users\WELCOME\OneDrive\html\popup\popup.css">
+    <script src="C:\Users\WELCOME\OneDrive\html\popup\popup.js" defer></script>
+
+
+</head>
+
+<body>
+    <button id="add" onclick="show1()">ADD</button>
+    <h1 id="title">ADD YOUR POINTS BRO</h1>
+    
+    <div id="world" >
+    </div>
+    <div id="backside">
+    </div>
+    <div id="popup">
+        <form>
+            <label for="name"> <b>NAME :</b></label>
+            <input type="text" id="name" required  maxlength="12">
+            <br>
+            <label for="fathername"><b>FATHER'S NAME :</b></label>
+            <input type="text" id="fathername" required maxlength="12">
+            <br>
+            <label for="mothername"><b>MOTHER'S NAME :</br</label>
+            <input type="text" id="mothername" required  maxlength="12">
+            <br>
+            <label for="dob"><b>D.O.B :</b></label>
+            <input type="date" id="dob" required>
+            <div id="buttons">        
+        <button id="popup-add" onclick="add1(event)">ADD</button>
+        <button type="reset" id="reset">RESET</button>
+        <button id="close" onclick="close1()">CLOSE</button>
+    </form>
+        </div>
+    </div>
+   
+
+</body>
+
+</html>
