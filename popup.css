@@ -26,14 +26,9 @@ body{
     top:20%;
     display: none;
 }
-#world
-{
-    display:flex;
-    flex-wrap: wrap;
-}
 
 .total-body {
-display:inline;
+display:inline-block;
     background-color: pink;
     border-width:4px;
     border-color:black;
